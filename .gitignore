@@ -1,0 +1,41 @@
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env/
+venv/
+
+# OS junk
+.DS_Store
+
+### === Language-Specific === ###
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+*.egg
+.pytest_cache/
+
+### === Environment & Secrets === ###
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.venv
+.envrc
+
+### === Logs & Temp Files === ###
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
